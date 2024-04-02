@@ -1,0 +1,28 @@
+.carousel_button {
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    width: 33px;
+    height: 320px;
+    border-radius: 3px;
+    background: rgb(255, 221, 68);
+    box-shadow: 0 -3px rgb(223, 190, 44) inset;
+    transition: 0.2s;
+    border: none;
+    font-size: 13px;
+}
+
+.carousel_button:hover {
+    background: rgb(247, 212, 56);
+    cursor: pointer;
+}
+
+.carousel_button:active {
+    background: rgb(223, 190, 44);
+    box-shadow: 0 3px rgb(223, 190, 44) inset;
+}
+
+.carousel {
+    display: flex;
+    flex-direction: row;
+}

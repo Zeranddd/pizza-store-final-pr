@@ -1,0 +1,134 @@
+.preview {
+    width: 345px;
+    height: 230px;
+    border-radius: 3px;
+    margin-top: 4px;
+}
+
+.addToCartButton {
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(255, 221, 68);
+    box-shadow: 0 -3px rgb(223, 190, 44) inset;
+    transition: 0.2s;
+    border: none;
+}
+
+.addToCartButton:hover {
+    background: rgb(247, 212, 56);
+    cursor: pointer;
+}
+
+.addToCartButton:active {
+    background: rgb(223, 190, 44);
+    box-shadow: 0 3px rgb(223, 190, 44) inset;
+}
+
+.goToCartButton {
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(255, 255, 255);
+    transition: 0.2s;
+    border: none;
+}
+
+.goToCartButton:hover {
+    cursor: pointer;
+    background: rgb(252, 250, 250);
+}
+
+.goToCartButton:active {
+    background: rgb(255, 221, 68);
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu-item {
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 3px;
+    border: 1px solid rgb(0, 0, 0);
+    align-items: center;
+    width: 390px;
+    height: 591px;
+    margin: 50px;
+    padding: 0 10px 0 10px;
+}
+
+.centrum {
+    text-align: center;
+}
+
+.pizza-name {
+    color: black;
+    text-align: center;
+}
+
+.pizza-link {
+    text-decoration: none;
+}
+
+.pizza-description {
+    color: black;
+    text-align: center;
+    height: 60px;
+    margin-bottom: 25px;
+}
+
+.pizza-price {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+.quantityContainer {
+    display: flex;
+    align-items: center;
+}
+
+.totalPriceTag {
+    text-align: center;
+}
+
+.buttons {
+    margin-left: 43px;
+}
+
+.quantityButton {
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    width: 33px;
+    height: 33px;
+    border-radius: 3px;
+    background: rgb(255, 221, 68);
+    box-shadow: 0 -3px rgb(223, 190, 44) inset;
+    transition: 0.2s;
+    border: none;
+    font-size: 13px;
+}
+
+.quantityButton:hover {
+    background: rgb(247, 212, 56);
+    cursor: pointer;
+}
+
+.quantityButton:active {
+    background: rgb(223, 190, 44);
+    box-shadow: 0 3px rgb(223, 190, 44) inset;
+}
+
+.quantitiesCounter {
+    margin-left: 13px;
+    margin-right: 13px;
+}

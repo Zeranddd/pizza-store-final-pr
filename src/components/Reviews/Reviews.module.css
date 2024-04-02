@@ -1,0 +1,33 @@
+.reviews_container {
+    margin: 0 auto;
+    max-width: 1770px;
+}
+
+.review-item {
+    margin-bottom: 30px;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding-left: 20px;
+}
+
+.review_text {
+    margin-top: 0px;
+}
+
+/* .name {
+    margin-bottom: 10px;
+} */
+
+.review_author {
+    display: flex;
+    align-items: center;
+    /* height: 40px; */
+}
+
+.pfp {
+    height: 26px;
+    width: 26px;
+    margin-right: 5px;
+    margin-bottom: 4px;
+}
+

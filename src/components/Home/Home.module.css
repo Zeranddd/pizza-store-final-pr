@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(255, 221, 68);
+}
+
+.promotion {
+    background-color: rgb(255, 229, 113);
+    height: 350px;
+    display: flex;
+    margin-top: 60px;
+}
+
+.promotion_image {
+    margin-left: 300px;
+}
+
+.promotion_tags {
+    margin-left: 150px;
+    font-size: 25px;
+}
+
+.promotion_title {
+    width: 560px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 0;
+}
+
+.promotion_pizza-name {
+    color: white;
+    margin-top: 35px;
+    margin-left: 420px;
+    border: 3px solid black;
+    border-radius: 3px;
+    background-color: black;
+    width: 183px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.aboutus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.aboutus_image {
+    width: 1000px;
+    border-radius: 3px;
+    margin: 0 auto;
+    margin-bottom: 22px;
+}
+
+.aboutus_title {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.hr {
+    width: 75%;
+}
+
+.aboutus_text {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 30px;
+    width: 1430px;
+}
